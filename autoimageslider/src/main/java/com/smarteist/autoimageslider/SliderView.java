@@ -709,7 +709,7 @@ public class SliderView extends FrameLayout
     public void dataSetChanged() {
         if (mIsInfiniteAdapter) {
             mInfinitePagerAdapter.notifyDataSetChanged();
-            mSliderPager.setCurrentItem(0, false);
+            //mSliderPager.setCurrentItem(0, false);
         }
     }
 
